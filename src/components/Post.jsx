@@ -20,6 +20,16 @@ export function Post() {
         <p><a href="#">👉 jane.design/doctorcare</a></p>
         <p><a href="#">#novoprojeto #nlw #rocketseat</a></p>
       </div>
+
+      <form className={styles.form}>
+        <strong>Deixe seu feedback</strong>
+        <textarea 
+          placeholder="Nossa, adorei amigo! Parabéns"
+        />
+        <footer>
+          <button>Publicar</button>
+        </footer>
+      </form>
     </article>
   )
 }

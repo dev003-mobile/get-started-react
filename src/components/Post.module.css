@@ -81,3 +81,57 @@
 .content a:hover {
   color: var(--green-300);
 }
+
+.form {
+  gap: 1rem;
+  display: flex;
+  margin-top: 1.5rem;
+  flex-direction: column;
+}
+
+.form strong {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 160%;
+  color: var(--gray-100);
+}
+
+.form textarea {
+  height: 6rem;
+  resize: none; 
+  flex-shrink: 0;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  background-color: var(--gray-900);
+  border: 1px solid var(--transparent);
+  color: var(--gray-100);
+}
+
+.form footer {
+  max-height: 0;
+  visibility: hidden;
+}
+
+.form:focus-within footer {
+  visibility: visible;
+  max-height: none;
+}
+
+.form button {
+  height: 3.5rem;
+  width: 8rem;
+  border: none;
+  border-radius: 8px;
+  display: inline-flex;
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--green-500);
+}
+
+.form button:hover {
+  transition: 0.3s;
+  background-color: var(--green-300);
+}
