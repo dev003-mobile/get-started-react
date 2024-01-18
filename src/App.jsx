@@ -10,7 +10,10 @@ export function App() {
       <Header />
       <div className={styles.wrapper}>
         <Sidebar />
-        <Post />
+        <main>
+          <Post />
+          <Post />
+        </main>
       </div>
     </div>
   )
