@@ -135,3 +135,9 @@
   transition: 0.3s;
   background-color: var(--green-300);
 }
+
+.comments {
+  display: grid;
+  max-width: 47rem;
+  grid-template-columns: 50px 1fr;
+}
